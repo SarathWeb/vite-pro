@@ -1,0 +1,32 @@
+
+
+.todoapp input{
+    width: 500px;
+    padding: 8px;
+    height: 12px;
+    outline: none;
+}
+.todoapp button{
+    padding: 8px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.todoapp{
+    display: flex;
+    gap: 15px;
+}
+.addvalue{
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    margin-top: 12px;
+    border: 1px solid;
+    width: 400px;
+    justify-content: space-between;
+}
+.subvalue button{
+    margin-left: 15px;
+}
