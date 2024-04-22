@@ -197,7 +197,7 @@ function App() {
                           handleSubjectChange("physics")
                       }
                   />
-                  Physics
+                 Chemistry
                   <label htmlFor="file">Upload Resume*</label>
                   <input
                       type="file"
