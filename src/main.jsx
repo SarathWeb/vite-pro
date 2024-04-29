@@ -5,7 +5,9 @@ import ReactDOM from 'react-dom/client'
 // import Quizapp from './components/Quizapp.jsx';
 // import Lyricsfinder from './components/Lyricsfinder.jsx';
 // import Qrcode from './components/Qrcode.jsx';
-import Moviesearch from './components/Moviesearch'
+// import Moviesearch from './components/Moviesearch'
+// import Dictionaryapp from './components/Dictionaryapp'
+import { Currencyapp } from './components/Currencyapp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,6 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
        {/* <Quizapp /> */}
        {/* <Lyricsfinder /> */}
        {/* <Qrcode /> */}
-        <Moviesearch />
+        {/* <Moviesearch /> */}
+         {/* <Dictionaryapp /> */}
+         <Currencyapp />
+         
   </React.StrictMode>,
 )
